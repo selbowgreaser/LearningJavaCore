@@ -2,13 +2,11 @@
  * <h1>Целочисленные типы</h1>
  */
 
-import java.math.*;
-
 public class LearningIntType {
     public static void main(String[] args) {
-//        int year = 100;
-//        int count = leapYearCount(year);
-//        System.out.println(count);
+        int year = 100;
+        int count = leapYearCount(year);
+        System.out.println(count);
         int value = 0;
         int bitIndex = 1;
         int res = flipBit(value, bitIndex);
