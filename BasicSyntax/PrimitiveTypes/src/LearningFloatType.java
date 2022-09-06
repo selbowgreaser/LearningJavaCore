@@ -1,5 +1,3 @@
-import java.math.*;
-
 public class LearningFloatType {
     public static void main(String[] args) {
         double a, b, c;
