@@ -16,10 +16,10 @@ public class TextPerRole {
                 "Лука Лукич: Господи боже! еще и с секретным предписаньем!",
                 "Лука Лукич: Господи боже! еще и с секретным предписаньем!",
                 "Лука Лукич: Господи боже! еще и с секретным предписаньем!"};
-        System.out.println(printTextPerRole(roles, textLines));
+        System.out.println(returnTextPerRole(roles, textLines));
     }
 
-    private static String printTextPerRole(String[] roles, String[] textLines) {
+    private static String returnTextPerRole(String[] roles, String[] textLines) {
         StringBuilder result = new StringBuilder();
         for (String role : roles) {
             result.append(role).append(":\n");
